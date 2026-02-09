@@ -59,8 +59,8 @@ modules:
 
         # Dev Tools
         - neovim
-        - gcc
-        - gcc-c++
+        - clang
+        - make
         - python3-devel
         - android-tools
         - git-lfs
@@ -78,11 +78,6 @@ modules:
         - nautilus-python
         - openssl
         - libxcrypt-compat
-
-    group-install:
-      with-optional: false
-      packages:
-        - development-tools
 
     remove:
       auto-remove: true

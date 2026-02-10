@@ -10,6 +10,10 @@ modules:
       - source: system
         destination: /
 
+  - type: script
+    snippets:
+      - rm -rf /usr/share/backgrounds/gnome/
+
   - type: bling
     install:
       - rpmfusion

@@ -4,9 +4,9 @@ An opinionated tweaked [ublue](https://universal-blue.org/) image based on [silv
 
 ## What is this?
 
-This is my own tweaked image deployment that I maintain for myself. It's mainly focused on 3D graphics, programming and gaming workloads.
+This is my own tweaked [bootable container](https://docs.fedoraproject.org/en-US/bootc/getting-started/) deployment that I maintain for myself. It's mainly focused on 3D graphics, programming and gaming workloads.
 
-If anyone is using these images please reach out with a bug report so I don't randomly change things on your computer.
+If anyone is using this image please reach out with a bug report so I don't randomly change things on your computer.
 
 > [!TIP]
 > If you are confused about wat BlueCat is, consider checking out the [wiki](https://github.com/PolyCatDev/bluecat/wiki/). It might help point you in the right direction.

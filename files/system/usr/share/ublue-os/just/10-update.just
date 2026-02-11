@@ -8,4 +8,4 @@ update:
     @echo " "
     @echo -e "\e[32mUpdating RPM Packages\e[0m"
     @rpm-ostree cancel || true
-    @rpm-ostree upgrade
+    @rpm-ostree upgrade || true

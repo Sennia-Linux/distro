@@ -1,5 +1,4 @@
-# Update Justfile
-
+# Update Homebrew, Flatpak and System Packages
 update:
     @echo -e "\e[32mUpdating Homebrew Packages\e[0m"
     @brew update && brew upgrade

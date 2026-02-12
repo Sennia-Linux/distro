@@ -2,6 +2,8 @@
 
 An opinionated tweaked [ublue](https://universal-blue.org/) image based on [silverblue-main](https://github.com/ublue-os/main/pkgs/container/silverblue-main).
 
+![Desktop Preview Image](https://raw.githubusercontent.com/PolyCatDev/bluecat/refs/heads/main/.github/preview.png)
+
 ## What is this?
 
 This is my own tweaked [bootable container](https://docs.fedoraproject.org/en-US/bootc/getting-started/) deployment that I maintain for myself. It's mainly focused on 3D graphics, programming and gaming workloads.

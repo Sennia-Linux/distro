@@ -7,6 +7,7 @@ image-version: latest
 modules:
   - type: script
     scripts:
+      - install-plymouth-theme.sh
       - remove-default-backgrounds.sh
     snippets:
       - rm -f /usr/share/ublue-os/just/10-update.just
@@ -129,5 +130,5 @@ modules:
     auto-upgrade: false
     nofile-limits: true
 
-
+  - type: initramfs
   - type: signing # this sets up the proper policy & signing files for signed images to work fully

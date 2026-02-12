@@ -31,8 +31,13 @@ modules:
     install:
       - rpmfusion
 
+  - type: script
+    scripts:
+      - install-cachyos-kernel.sh
+
   - type: dnf
     repos:
+      cleanup: true
       files:
         - https://download.docker.com/linux/fedora/docker-ce.repo
       copr:
@@ -128,6 +133,5 @@ modules:
     auto-update: false
     auto-upgrade: false
     nofile-limits: true
-
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully

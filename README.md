@@ -18,6 +18,7 @@ If anyone is using this image please reach out with a bug report so I don't rand
 ### Tweaks
 
 - Pre-installed Nvidia proprietary drivers
+- CachyOS kernel included thanks to [bieszczaders](https://copr.fedorainfracloud.org/coprs/bieszczaders/kernel-cachyos/)
 - Firefox removed (install web browser from software centre or cli)
 - New default wallpapers added
 - Hack [Nerd Font](https://www.nerdfonts.com/) included

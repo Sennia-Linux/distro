@@ -130,5 +130,8 @@ modules:
     auto-upgrade: false
     nofile-limits: true
 
-  - type: initramfs
+  - type: script
+    scripts:
+      - rebuild-initramfs.sh
+
   - type: signing # this sets up the proper policy & signing files for signed images to work fully

@@ -10,6 +10,7 @@ modules:
       - remove-default-backgrounds.sh
     snippets:
       - rm -f /usr/share/ublue-os/just/10-update.just
+      - echo "compress="zstd" >> /etc/dracut.conf.d/10-fastboot.conf
 
   - type: files
     files:

@@ -107,6 +107,7 @@ modules:
       disabled:
         - flatpak-system-update.timer
         - rpm-ostreed-automatic.timer
+        - NetworkManager-wait-online.service
 
     user:
       disabled:

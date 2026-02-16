@@ -1,17 +1,14 @@
-# BlueCat &nbsp; [![bluebuild build badge](https://github.com/PolyCatDev/bluecat/actions/workflows/build.yml/badge.svg)](https://github.com/PolyCatDev/bluecat/actions/workflows/build.yml)
+# Sienna Linux &nbsp; [![bluebuild build badge](https://github.com/Sienna-Linux/distro/actions/workflows/build.yml/badge.svg)](https://github.com/Sienna-Linux/distro/actions/workflows/build.yml)
 
 An opinionated tweaked [ublue](https://universal-blue.org/) image based on [silverblue-nvidia](https://github.com/ublue-os/main/pkgs/container/silverblue-nvidia).
 
-![Desktop Preview Image](https://raw.githubusercontent.com/PolyCatDev/bluecat/refs/heads/main/.github/preview.png)
+![Desktop Preview Image](https://raw.githubusercontent.com/Sienna-Linux/distro/refs/heads/main/.github/preview.png)
 
 ## What is this?
 
 This is my own tweaked [bootable container](https://docs.fedoraproject.org/en-US/bootc/getting-started/) deployment that I maintain for myself. It's mainly focused on 3D graphics, programming and gaming workloads.
 
 If anyone is using this image please reach out with a bug report so I don't randomly change things on your computer.
-
-> [!TIP]
-> If you are confused about wat BlueCat is, consider checking out the [wiki](https://github.com/PolyCatDev/bluecat/wiki/). It might help point you in the right direction.
 
 ## Changes and Features
 
@@ -58,7 +55,7 @@ If anyone is using this image please reach out with a bug report so I don't rand
 
 - First rebase to the unsigned image, to get the proper signing keys and policies installed:
   ```
-  rpm-ostree rebase ostree-unverified-registry:ghcr.io/polycatdev/bluecat:latest
+  rpm-ostree rebase ostree-unverified-registry:ghcr.io/sienna-linux/distro:latest
   ```
 - Reboot to complete the rebase:
   ```
@@ -66,7 +63,7 @@ If anyone is using this image please reach out with a bug report so I don't rand
   ```
 - Then rebase to the signed image, like so:
   ```
-  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/polycatdev/bluecat:latest
+  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/sienna-linux/distro:latest
   ```
 - Reboot again to complete the installation
   ```

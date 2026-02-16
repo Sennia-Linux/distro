@@ -1,8 +1,0 @@
-[Plymouth Theme]
-Name=running-cat
-Description=display an animated cat running
-ModuleName=script
-
-[script]
-ImageDir=/usr/share/plymouth/themes/running-cat
-ScriptFile=/usr/share/plymouth/themes/running-cat/running-cat.script

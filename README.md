@@ -1,7 +1,7 @@
-# Sienna Linux Distro Deployment &nbsp; [![bluebuild build badge](https://github.com/Sienna-Linux/distro/actions/workflows/build.yml/badge.svg)](https://github.com/Sienna-Linux/distro/actions/workflows/build.yml)
+# Sennia Linux Distro Deployment &nbsp; [![bluebuild build badge](https://github.com/Sienna-Linux/distro/actions/workflows/build.yml/badge.svg)](https://github.com/Sienna-Linux/distro/actions/workflows/build.yml)
 
 > [!TIP]
-> For more info about Sienna-Linux go [here](https://github.com/Sienna-Linux).
+> For more info about Sennia-Linux go [here](https://github.com/Sennia-Linux).
 
 ## Special Thanks
 

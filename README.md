@@ -1,7 +1,5 @@
 # Sennia Linux Distro Deployment &nbsp; [![bluebuild build badge](https://github.com/Sienna-Linux/distro/actions/workflows/build.yml/badge.svg)](https://github.com/Sienna-Linux/distro/actions/workflows/build.yml)
 
-Deployment based on [silverblue-main](https://github.com/ublue-os/main/pkgs/container/silverblue-main) by [ublue](https://universal-blue.org/).
-
 > [!TIP]
 > For more info about Sennia-Linux go [here](https://github.com/Sennia-Linux).
 

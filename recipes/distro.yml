@@ -1,10 +1,18 @@
 name: distro
 description: uBlue imaged tweaked by PolyCat with nvidia drivers
 
-base-image: ghcr.io/ublue-os/silverblue-nvidia
-image-version: latest
+base-image: ghcr.io/ublue-os/silverblue-main
+image-version: 43
 
 modules:
+
+  - type: akmods
+    base: main
+    install:
+      - v4l2loopback
+
+    nvidia-driver: nvidia-open
+
   - type: script
     scripts:
       - remove-default-backgrounds.sh
@@ -35,6 +43,7 @@ modules:
 
   - type: dnf
     repos:
+      cleanup: true
       files:
         - https://download.docker.com/linux/fedora/docker-ce.repo
       copr:
@@ -96,8 +105,6 @@ modules:
     snippets:
       - "sed -i 's/^Terminal=true/Terminal=false/' /usr/share/applications/nvim.desktop"
       - "sed -i 's|^Exec=.*|Exec=/usr/bin/ghostty -e nvim %F|' /usr/share/applications/nvim.desktop"
-
-#  - from-file: install-akmods.yml
 
   - type: systemd
     system:

@@ -11,7 +11,7 @@ modules:
     install:
       - v4l2loopback
 
-    nvidia-driver: nvidia-open
+    nvidia-driver: nvidia
 
   - type: script
     scripts:
